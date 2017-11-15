@@ -10,13 +10,10 @@
     http://www.springframework.org/schema/mvc
     http://www.springframework.org/schema/mvc/spring-mvc.xsd">
      
-    <!-- mvc中只扫controller层，而modeler模块也只有controller层-->
+    <!-- mvc中只扫controller层-->
     <context:component-scan base-package="org.activiti.rest">
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
-    
-    <!-- modeler需要自动注入ObjectMapper -->
-    <bean id="objectMapper" class="com.fasterxml.jackson.databind.ObjectMapper"/>
      
     <mvc:annotation-driven />
     

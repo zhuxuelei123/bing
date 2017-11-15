@@ -83,5 +83,10 @@
 			<groupId>org.activiti</groupId>
 			<artifactId>activiti-modeler</artifactId>
 		</dependency>
+		<!-- uuid -->
+		<dependency>
+		    <groupId>com.fasterxml.uuid</groupId>
+		    <artifactId>java-uuid-generator</artifactId>
+		</dependency>
 	</dependencies>
 </project>

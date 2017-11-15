@@ -7,11 +7,12 @@
 	<!-- 项目名称 -->
 	<display-name>bing-activiti</display-name>
 	
-	<!-- 静态资源的访问交由Servlet处理 -->
+	<!-- 静态资源的访问交由Servlet处理  -->
 	<servlet-mapping>
 	    <servlet-name>default</servlet-name>
 	    <url-pattern>*.jpg</url-pattern>
 	    <url-pattern>*.png</url-pattern>
+	    <url-pattern>/editor-app/*</url-pattern>
 	    <url-pattern>*.gif</url-pattern>
 	    <url-pattern>*.woff</url-pattern>
 	    <url-pattern>*.woff2</url-pattern>
