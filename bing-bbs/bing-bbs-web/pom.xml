@@ -7,7 +7,7 @@
 		<artifactId>bing-bbs</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>bing-bbs-web</artifactId>
+	<artifactId>bing-sso-web</artifactId>
 	<packaging>war</packaging>
 	
 	<!-- 依赖管理 -->
