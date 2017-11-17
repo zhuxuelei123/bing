@@ -98,7 +98,7 @@
 	<servlet-mapping>
 	    <servlet-name>ModelerServlet</servlet-name>
 	    <!-- url要与app-cfg.js中配置的一致 -->
-	    <url-pattern>/service/*</url-pattern>
+	    <url-pattern>/bing-activiti-web/service/*</url-pattern>
 	</servlet-mapping>
 	
 </web-app>

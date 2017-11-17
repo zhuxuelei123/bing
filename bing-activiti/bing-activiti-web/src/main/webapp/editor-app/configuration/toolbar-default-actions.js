@@ -264,10 +264,10 @@ KISBPM.TOOLBAR = {
          * 网页流程设计器:'X'关闭按钮点击触发该事件
          */
         closeEditor: function(services) {
-        	if(window.confirm('请确认数据是否已经保存，确定要关闭编辑器吗？')) {
-        		//window.close();//关闭页面
-        		window.location.href = "/haocang-pipeomsys-web/views/act/flow_model.html";
-        	}
+        	window.location.href = "./";
+        	/*if(window.confirm('请确认数据是否已经保存，确定要关闭编辑器吗？')) {
+        		window.close();//关闭页面
+        	}*/
         },
         
         /**
@@ -335,7 +335,7 @@ var SaveModelCtrl = [ '$rootScope', '$scope', '$http', '$route', '$location',
      */
     $scope.saveAndClose = function () {
     	$scope.save(function() {
-    		window.location.href = "/haocang-pipeomsys-web/views/act/flow_model.html";
+    		window.location.href = "./";
 //    		window.close();//关闭页面 
     	});
     };

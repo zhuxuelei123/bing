@@ -18,7 +18,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 @Controller
-@RequestMapping("/activiti")
+@RequestMapping("/act/model")
 public class ActModelController {
 
 	private final static Logger logger = LoggerFactory.getLogger(ActModelController.class);
